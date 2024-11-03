@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "DM Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(170, 170, 170);
+}
+
+.btn-1{
+    background-color: #673DE6;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 12px 50px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.caja{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 1700px 10px 10px;
+    padding: 2px 20px 20px 20px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 1px rgb(153, 153, 153);
+    border-style: none;
+    cursor: pointer;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: none;
+    text-align: left;
+}
+
+img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.txt-1{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.txt-2{
+    font-size: 11px;
+    text-align: center;
+    color: rgb(52, 131, 250);
+    background-color: rgb(211, 211, 211);
+    border-radius: 3px;
+    padding: 5px 6px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.btn-2{
+    background-color: white;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    cursor: pointer;
+}

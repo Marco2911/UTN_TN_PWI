@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 223, 201);
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.caja{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    gap: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.137);
+}
+
+span{
+    font-size: xx-small;
+    color: #b8b8b8;
+}
+
+.divider{
+    width: 1px;
+    height: 1.5rem;
+    background-color: hsl(244, 100%, 97%);
+}
+
+div .AI{
+    background-color: #6965db;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 6px;
+}
+

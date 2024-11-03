@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    font-family: "DM Sans", sans-serif;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200vh;
+    background-color: hsla(197, 92%, 60%, 1);
+    background-image: radial-gradient(circle at 96% 96%, hsla(55.36363636363636, 93%, 54%, 0.85) 5%, transparent 86%), radial-gradient(circle at 5% 90%, hsla(229, 71%, 68%, 1) 13%, transparent 65%), radial-gradient(circle at 57% 73%, hsla(308, 93%, 51%, 1) 3%, transparent 89%), radial-gradient(circle at 20% 4%, hsla(318, 60%, 76%, 1) 22%, transparent 56%), radial-gradient(circle at 74% 15%, hsla(324, 92%, 59%, 1) 13%, transparent 57%);
+    background-blend-mode: normal, normal, normal, normal, normal;
+}
+
+:root {
+    --main-violet-color: #673de6;
+    --hover-violet-color: #5025d1;
+    --white-color: #ffffff;
+    --light-grey-color: #f2f3f6;
+    --dark-grey-color: #727586;
+    --border-color: #dad9da;
+    --btn-font-size: 14px;
+    --chat-btn-size: 40px;
+    --transition-time: 0.3s;
+}

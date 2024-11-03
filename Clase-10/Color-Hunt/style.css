@@ -1,0 +1,199 @@
+@import url(./normalize.css);
+
+.main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    gap: 40px;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 254.8px;
+}
+
+.conteiner-pallets{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.like-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+    gap: 4px;
+}
+
+.like-button svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: #000;
+    margin-right: 4px;
+}
+
+.like-button:hover {
+    background-color: #f5f5f5;
+    transition: all .2s;
+}
+
+.conteiner-likes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 15px 0;
+    justify-content: space-between;
+}
+
+.conteiner-likes span{
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.conteiner-pallets-1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color: rgb(191, 46, 240);
+    height: 104.45px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+.conteiner-pallets-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color: rgb(237, 62, 247);
+    height: 66.25px;
+    cursor: pointer;
+}
+
+.conteiner-pallets-3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color: rgb(254, 236, 179);
+    height: 45.86px;
+    cursor: pointer;
+}
+
+.conteiner-pallets-4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color: rgb(255, 246, 234);
+    height: 38.24px;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+.conteiner-pallets-5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color: rgb(41, 95, 152);
+    height: 104.45px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+.conteiner-pallets-6{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color: rgb(205, 194, 165);
+    height: 66.25px;
+    cursor: pointer;
+}
+
+.conteiner-pallets-7{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color: rgb(225, 215, 198);
+    height: 45.86px;
+    cursor: pointer;
+}
+
+.conteiner-pallets-8{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background-color: rgb(234, 228, 221);
+    height: 38.24px;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+.conteiner-pallets-color{
+    /* display: flex; */
+    display: none;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .1);
+    transition: all .2s;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 0 6px 0 0;
+    /* opacity: 0; */
+    padding: 3px 6px;
+}
+
+[class*="conteiner-pallets-"]:hover .conteiner-pallets-color {
+    display: flex;
+}
+
+.conteiner-pallets-1 :hover{
+    background-color: #9925c0;
+}
+
+.conteiner-pallets-2 :hover{
+    background-color: #be32c6;
+}
+
+.conteiner-pallets-3 :hover{
+    background-color: #cbbd8f;
+}
+
+.conteiner-pallets-4 :hover{
+    background-color: #ccc5bb;
+}
+
+.conteiner-pallets-5 :hover{
+    background-color: #214c7a;
+}
+
+.conteiner-pallets-6 :hover{
+    background-color: #a49b84;
+}
+
+.conteiner-pallets-7 :hover{
+    background-color: #b4ac9e;
+}
+
+.conteiner-pallets-8 :hover{
+    background-color: #bbb6b1;
+}
